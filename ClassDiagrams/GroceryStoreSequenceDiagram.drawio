@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
+  <diagram id="uoa-Fs3djvpFeKSl9HpA" name="Page-3">
+    <mxGraphModel dx="948" dy="639" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jscya63Jd7LZC8VzgV7M-2" value="+------------------+                  +----------------------+&#xa;|   Customer      |                  |     BillGenerator  |&#xa;+------------------+                  +-----------------------+&#xa;        |                                    |&#xa;        |---- checkOut() --------&gt;|&#xa;        |                                    |&#xa;        |                                    |&#xa;        |                                    |&#xa;        |                                    |---- getProducts() -----------------&gt;|&#xa;        |                                    |                                                   |&#xa;        |                                    |&lt;-------- productsList ---------------|&#xa;        |                                    |&#xa;        |                                    |---- calculateTotal() ----------------&gt;|&#xa;        |                                    |                                      |&#xa;        |                                    |&lt;--------- totalAmount --------------|&#xa;        |                                    |&#xa;        |                                    |---- generateBill() -----------------&gt;|&#xa;        |                                    |                                      |&#xa;        |                                    |&lt;-------- billObject ---------------|&#xa;        |                                    |&#xa;        |&lt;-------- returnBill() ------------" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-196.99857142857144" y="190.0042926897321" width="366" height="324" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
